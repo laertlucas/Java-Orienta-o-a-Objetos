@@ -1,4 +1,4 @@
-package Aula16e17;
+package aula16e17;
 
 import java.util.Scanner;
 
@@ -77,6 +77,12 @@ public class Ex3 {
 				System.out.println("Não identificado!");
 			}
 		} while(estadoCivil != "s" || estadoCivil != "c" || estadoCivil != "v" || estadoCivil != "d");
+		
+		System.out.println(nome);
+		System.out.println(idade);
+		System.out.println(salario);
+		System.out.println(sexo);
+		System.out.println(estadoCivil);
 	}
 
 }
